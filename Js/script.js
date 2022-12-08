@@ -21,20 +21,28 @@ var a="gfuh ieiuei";
 console.log(a.slice(0,5));
 
 var b="hduej dij";
-console.log(b.length)
-console.log(b.toUpperCase())
+console.log(b.length);
+console.log(b.toUpperCase());
 
-var c=" ASDR JBUJ  "
-console.log(c.toLowerCase())
-var d=" biji jdo "
+var c=" ASDR JBUJ  ";
+console.log(c.toLowerCase());
+var d=" biji jdo ";
 console.log(d.trim());
-console.log(d.replace("j",","))
+console.log(d.replace("j",","));
 
-console.log(44+"Hello"+20/2+22)//44Hello1022
-console.log("66"/2 +"hii"+"null"+ null)//33hiinullnull
-console.log("66"/2 + null+"hii"+"null")//33hiinull
+console.log(44+"Hello"+20/2+22);//44Hello1022
+console.log("66"/2 +"hii"+"null"+ null);//33hiinullnull
+console.log("66"/2 + null+"hii"+"null");//33hiinull
 
 var car ={
-    name:"Maruti"
-    
+    name:"Maruti",
+    color:"black",
+    year:"2018",
+    price:"250000",
+    isAvailabel:true
 }
+console.log(car);
+console.log(typeof car);
+console.log(car.color);
+console.log(Object.keys(car));
+console.log(Object.values(car));
